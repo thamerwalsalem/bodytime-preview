@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="معاينة تجريبية لموقع نادي بودي تايم وخدمات اللياقة والسباحة والتغذية.">
+<title>BODYTIME | بودي تايم</title>
+<style>
+:root{color-scheme:dark;--ink:#141512;--panel:#1e201a;--paper:#f6f5ee;--lime:#d9fd51;--soft:#c5c7b9;--line:#414438}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:1.5rem}body{margin:0;background:var(--ink);color:var(--paper);font:1rem/1.75 system-ui,sans-serif}a{color:inherit;text-decoration:none}a:focus-visible,summary:focus-visible{outline:3px solid #9bbdff;outline-offset:5px}p{margin:0;color:var(--soft)}h1,h2,h3{margin:0;line-height:1.22}h2{font-size:clamp(2rem,5vw,3.5rem);letter-spacing:-.035em}h3{font-size:1.55rem}.wrap{width:min(1150px,calc(100% - 3rem));margin-inline:auto}.nav,.foot{display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap;padding-block:1.15rem}.nav{border-bottom:1px solid var(--line)}.nav nav{display:flex;gap:1.5rem;flex-wrap:wrap;font-size:.92rem}.nav nav a:hover,.foot a:hover{text-decoration:underline}.logo{font:950 italic 1.55rem/1 system-ui,sans-serif;letter-spacing:-.08em;color:var(--lime);direction:ltr}.badge{display:inline-block;color:var(--lime);border:1px solid #5e6940;border-radius:999px;padding:.15rem .7rem;font-size:.76rem;font-weight:700}.hero{display:grid;grid-template-columns:1fr 1fr;min-height:510px;margin-block:1.4rem 0;border:1px solid var(--line);border-radius:1.25rem;overflow:hidden}.hero-copy{align-self:center;padding:clamp(1.5rem,5vw,4.7rem)}.hero h1{font-size:clamp(3rem,6.5vw,6.4rem);letter-spacing:-.055em;margin:.65rem 0 1rem}.hero h1 span{display:block;color:var(--lime)}.hero p{font-size:1.1rem;max-width:26rem}.actions{display:flex;flex-wrap:wrap;gap:.65rem;margin-top:1.55rem}.btn{display:inline-flex;align-items:center;justify-content:center;border-radius:.55rem;border:1px solid var(--line);padding:.65rem 1.05rem;font-weight:750}.btn:hover{border-color:var(--lime)}.primary{background:var(--lime);color:var(--ink);border-color:var(--lime)}.primary:hover{background:#ecff9b}.art{display:grid;place-items:center;position:relative;min-height:260px;overflow:hidden;background:repeating-linear-gradient(135deg,#dafa54 0 32px,#defa62 32px 33px);color:#202516}.art svg{width:89%;max-width:500px;filter:drop-shadow(14px 23px 18px #37441765)}.art-label{position:absolute;left:1.2rem;bottom:.65rem;font:800 .7rem/1.5 system-ui,sans-serif;letter-spacing:.2em}.section{padding-block:clamp(2.7rem,7vw,5.2rem);border-bottom:1px solid var(--line)}.eyebrow{display:block;color:var(--lime);font-weight:750;margin-bottom:.55rem}.heading{margin-bottom:1.55rem}.heading p{margin-top:.65rem;max-width:46rem}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:.85rem}.card{padding:1.35rem;border-radius:.9rem;border:1px solid var(--line);background:var(--panel)}.card h3{margin:.7rem 0 .45rem}.number{color:var(--lime);font-size:.86rem;font-weight:800}.members{display:grid;grid-template-columns:1fr auto;align-items:center;gap:1.25rem;padding:1.6rem;background:var(--lime);color:var(--ink);border-radius:1rem}.members p{color:#353b1d;margin-top:.4rem}.members .btn{border-color:#4f5a22}.members .btn:hover{background:#202516;color:var(--lime)}.members .actions{margin:0}.ai{grid-template-columns:repeat(2,1fr)}details{margin-top:1rem;border-top:1px solid var(--line);padding-top:.75rem}summary{color:var(--lime);cursor:pointer;font-weight:700}blockquote{margin:.75rem 0 0;background:var(--ink);border-inline-start:2px solid var(--lime);padding:.7rem .8rem;border-radius:.3rem;font-size:.92rem}blockquote p+p{margin-top:.4rem}.foot{color:var(--soft);font-size:.85rem}.foot .logo{font-size:1.25rem}
+@media(max-width:760px){.wrap{width:calc(100% - 1.75rem)}.hero{grid-template-columns:1fr;min-height:0}.hero-copy{padding:2rem 1.25rem}.art svg{max-height:260px}.grid,.members{grid-template-columns:1fr}.nav nav{width:100%;gap:1rem}.nav{gap:.7rem}.hero h1{font-size:clamp(2.7rem,10vw,4rem)}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<header class="wrap nav" id="top">
+<a class="logo" href="#top" aria-label="بودي تايم، الرئيسية">BODYTIME.</a>
+<nav aria-label="التنقل الرئيسي"><a href="#training">خدمات النادي</a><a href="#membership">الاشتراكات</a><a href="#ai">تجربة الذكاء الاصطناعي</a></nav>
+<span class="badge">نسخة تجريبية</span>
+</header>
+<main class="wrap">
+<section class="hero" aria-labelledby="hero-title">
+<div class="hero-copy">
+<span class="eyebrow">نادي بودي تايم الرياضي</span>
+<h1 id="hero-title">وقتـك الآن<span>لتصير أقوى.</span></h1>
+<p>ابدأ من مستواك. تدرّب على القوة واللياقة، طوّر مهاراتك في السباحة، وابنِ عادات غذائية تناسب هدفك.</p>
+<div class="actions"><a class="btn primary" href="#membership">استكشف الاشتراكات</a><a class="btn" href="#training">تعرّف على النادي</a></div>
+</div>
+<div class="art" aria-hidden="true">
+<svg viewBox="0 0 480 365" xmlns="http://www.w3.org/2000/svg">
+<defs><linearGradient id="plate" x2="1" y2="1" gradientUnits="objectBoundingBox"><stop stop-color="#454a3b"/><stop offset="1" stop-color="#181c14"/></linearGradient></defs>
+<g transform="rotate(-18 240 180)">
+<circle cx="252" cy="191" r="152" fill="#131610"/>
+<circle cx="240" cy="178" r="152" fill="url(#plate)" stroke="#151910" stroke-width="7"/>
+<circle cx="240" cy="178" r="133" fill="none" stroke="#5f664e" stroke-width="2"/>
+<circle cx="240" cy="178" r="106" fill="none" stroke="#727b57" stroke-width="4" stroke-dasharray="2 12"/>
+<circle cx="240" cy="178" r="29" fill="#1b2016" stroke="#788361" stroke-width="6"/>
+<circle cx="240" cy="178" r="16" fill="#d9fd51"/>
+<path d="M121 153h58v14h-58zm180 0h58v14h-58zm-180 36h58v14h-58zm180 0h58v14h-58z" fill="#161a12"/>
+<text x="240" y="120" text-anchor="middle" fill="#d9fd51" font-family="system-ui,sans-serif" font-size="31" font-weight="900" font-style="italic" direction="ltr">BODYTIME.</text>
+<text x="240" y="260" text-anchor="middle" fill="#b7c092" font-family="system-ui,sans-serif" font-size="17" font-weight="750" letter-spacing="5" direction="ltr">STRENGTH</text>
+</g>
+</svg>
+<span class="art-label" dir="ltr">BODYTIME / CLUB PREVIEW</span>
+</div>
+</section>
+<section class="section" id="training" aria-labelledby="training-title">
+<div class="heading"><span class="eyebrow">تجربة النادي</span><h2 id="training-title">اختر كيف تبدأ</h2></div>
+<div class="grid">
+<article class="card"><span class="number">٠١ / القوة</span><h3>اللياقة والتدريب</h3><p>تمارين قوة ولياقة، وحصص جماعية وخطط تدريب شخصية تناسب مستويات مختلفة.</p></article>
+<article class="card"><span class="number">٠٢ / المهارة</span><h3>السباحة</h3><p>برامج لتعلّم أساسيات السباحة أو تطوير التقنية والقدرة على التحمّل.</p></article>
+<article class="card"><span class="number">٠٣ / العادات</span><h3>التغذية</h3><p>خطط غذائية تراعي هدفك الرياضي وتساعدك على بناء عادات تدعم تدريبك.</p></article>
+</div>
+</section>
+<section class="section" id="membership" aria-labelledby="membership-title">
+<div class="members">
+<div><h2 id="membership-title">اشتراكات بودي تايم</h2><p>اطّلع على الخيارات المتاحة من خلال موقع النادي الرسمي على ركاز.</p></div>
+<div class="actions"><a class="btn" href="https://boodytime.com/ar/5f8c9c2a">قسم الرجال ↗</a><a class="btn" href="https://boodytime.com/ar/9edd176a">قسم النساء ↗</a></div>
+</div>
+</section>
+<section class="section" id="ai" aria-labelledby="ai-title">
+<div class="heading"><span class="eyebrow">تصوّر لخدمة العملاء</span><h2 id="ai-title">اسأل بطريقتك</h2><p>أمثلة تفاعلية تعرض كيف يمكن لمساعد المحادثة ومركز الاتصال خدمة أعضاء النادي عند تفعيلهما.</p></div>
+<div class="grid ai">
+<article class="card"><span class="badge">تجريبي · غير مفعّل</span><h3>مساعد المحادثة</h3><p>يمكنه الإجابة عن أسئلة العضوية والسباحة والتغذية والمواعيد، وتوجيه الزائر إلى صفحة الخدمة المناسبة.</p>
+<details><summary>اعرض مثالًا للمحادثة</summary><blockquote><p><strong>الزائر</strong> — أقدر أبدأ السباحة من الصفر؟</p><p><strong>المساعد</strong> — نعم، توجد برامج للمبتدئين. اختر قسم الرجال أو النساء للاطّلاع على الخيارات في موقع النادي.</p></blockquote></details></article>
+<article class="card"><span class="badge">تجريبي · غير مفعّل</span><h3>مركز اتصال بالذكاء الاصطناعي</h3><p>يمكنه استقبال المكالمات بالعربية، والإجابة عن الاستفسارات المتكررة، وتحويل الطلبات التي تحتاج متابعة إلى موظف.</p>
+<details><summary>اعرض مثالًا لمكالمة</summary><blockquote><p><strong>المتصل</strong> — أبي أعرف الباقات وأتكلم مع موظف.</p><p><strong>المساعد الصوتي</strong> — أقدر أوضح لك خيارات الاشتراك، ثم أحوّلك إلى فريق النادي لمساعدتك.</p></blockquote></details></article>
+</div>
+</section>
+</main>
+<footer class="wrap foot"><a class="logo" href="#top" aria-label="العودة إلى الأعلى">BODYTIME.</a><span>معاينة تصميم لنادي بودي تايم</span><a href="https://boodytime.com/ar">موقع النادي الرسمي ↗</a></footer>
+</body>
+</html>
